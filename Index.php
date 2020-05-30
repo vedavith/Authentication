@@ -44,6 +44,6 @@ class Index extends Crypt
 }
 
 $index_object = Index::getInstance();
-$index_object->main("hello",1);
-$index_object->main("aGVsbG8=",0);
+$index_object->main("hello",1); 
+$index_object->main("hello",0);
 ?>
